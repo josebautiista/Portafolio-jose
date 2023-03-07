@@ -1,0 +1,39 @@
+.education__tarjetas{
+    width: 22%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 10vh 5px;
+    border-radius: 30px;
+    background: var(--botones);
+    color: var(--blanco);
+}
+
+.education__tarjetas-img{
+    margin: 5vh 0;
+    width: 20vh;
+    height: 20vh;
+    background: var(--blanco);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.education__tarjetas-nombreIns{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--letra);
+}
+
+.education__tarjetas-titulo{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.education__tarjetas-fecha, .education__tarjetas-skills{
+    font-size: 0.8rem;
+}
+
