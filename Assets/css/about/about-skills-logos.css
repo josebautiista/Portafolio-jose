@@ -1,0 +1,9 @@
+.about__skills-logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about__skills-logos img{
+    width: 20%;
+}

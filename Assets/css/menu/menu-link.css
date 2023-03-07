@@ -1,0 +1,18 @@
+.menu__link {
+    text-decoration: none;
+    color: var(--letra);
+    font-size: 1rem;
+    transition: 1s font-size;
+    font-weight: bold;
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+    font-size: 1.1rem;
+    color: var(--blanco);
+}
+
+.active{
+    color: var(--blanco);
+}
+

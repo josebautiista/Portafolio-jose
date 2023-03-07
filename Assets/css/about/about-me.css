@@ -1,0 +1,40 @@
+.about__me{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.about__me h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about__me h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about__me p{
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+.about__me a{
+    text-decoration: none;
+    width: 40%;
+    height: 3rem;
+    background: var(--botones);
+    color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 0 white;
+}
+
+.about__me a:hover{
+    background: var(--letra);
+}

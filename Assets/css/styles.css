@@ -1,0 +1,11 @@
+html{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --fondo:#1A1A2E;
+    --letra: #03C988;
+    --botones: #0F3460;
+    --blanco:white;
+}

@@ -1,0 +1,16 @@
+.menu__titulo{
+    color: var(--blanco);
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu__titulo::after{
+    content: '/>';
+}
+
+.menu__titulo::before{
+    content: '<';
+}

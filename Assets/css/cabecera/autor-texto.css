@@ -1,0 +1,18 @@
+.autor__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.autor__texto h1{
+    font-size: 4rem;
+    color: var(--letra);
+    font-weight: bold;
+}
+
+.autor__texto p{
+    font-size: 2rem;
+    color: var(--blanco);
+}

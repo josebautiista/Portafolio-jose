@@ -1,0 +1,9 @@
+.cabecera__autor{
+    display: flex;
+}
+
+.autor__imagen{
+    width: 50vh;
+    height: 50vh;
+    border-radius: 100%;
+}
