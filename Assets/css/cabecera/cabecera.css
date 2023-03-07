@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     background-color: var(--fondo);
-    background-image: url(/Assets/img/bg-fon.jpg);
+    background-image: url('/Assets/img/bg-fon.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
