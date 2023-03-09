@@ -1,6 +1,6 @@
 .about__me{
     width: 50%;
-    color: white;
+    color: var(--blanco);
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -33,8 +33,10 @@
     justify-content: center;
     border-radius: 10px;
     box-shadow: 1px 1px 0 0 white;
+    font-weight: bold;
 }
 
 .about__me a:hover{
     background: var(--letra);
+    color: var(--fondo);
 }

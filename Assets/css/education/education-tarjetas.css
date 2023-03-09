@@ -9,22 +9,21 @@
     gap: 1rem;
     padding: 10vh 5px;
     border-radius: 30px;
-    background: var(--botones);
-    color: var(--blanco);
+    background: var(--blanco);
+    color: var(--fondo);
+    box-shadow: 5px 5px 0px 0px var(--letra);
 }
 
 .education__tarjetas-img{
     margin: 5vh 0;
     width: 20vh;
     height: 20vh;
-    background: var(--blanco);
-    border-radius: 10px;
     margin: 10px;
 }
 
 .education__tarjetas-nombreIns{
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight:bold;
     color: var(--letra);
 }
 
@@ -34,6 +33,6 @@
 }
 
 .education__tarjetas-fecha, .education__tarjetas-skills{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 

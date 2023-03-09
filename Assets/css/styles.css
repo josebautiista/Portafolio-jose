@@ -1,6 +1,7 @@
 html{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
