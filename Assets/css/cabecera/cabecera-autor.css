@@ -7,3 +7,31 @@
     height: 50vh;
     border-radius: 100%;
 }
+
+@media  screen and (min-width: 768px)and (max-width:1023px) {
+    .autor__imagen{
+        width: 300px;
+        height: 300px;
+    }
+
+    .cabecera__autor{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cabecera__autor{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .autor__imagen{
+        width: 200px;
+        height: 200px;
+    }
+}

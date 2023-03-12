@@ -12,5 +12,11 @@
 }
 
 .menu__titulo::before{
-    content: '<';
+    content: '<Jose Bautista';
+}
+
+@media screen and (max-width:767px) {
+    .menu__titulo::before{
+        content: '<J B';
+    }
 }

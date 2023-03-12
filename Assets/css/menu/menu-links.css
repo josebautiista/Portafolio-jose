@@ -2,3 +2,34 @@
     display: flex;
     gap: 1rem;
 }
+
+@media screen and (max-width:767px) {
+    .menu-btn{
+        display: block;
+        background: url(/Assets/img/menu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        width: 40px;
+        height: 40px;
+        transition: 1s all;
+    }
+
+    .menu{
+        justify-content: space-evenly;
+    }
+
+    .menu__links{
+        position: absolute;
+        top: 64px;
+        right: 20px;
+        background: var(--fondo);
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        gap: 5rem;
+        align-items: center;
+        opacity: 0.9;
+    }
+}

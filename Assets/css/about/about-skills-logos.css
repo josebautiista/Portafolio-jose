@@ -7,3 +7,9 @@
 .about__skills-logos img{
     width: 20%;
 }
+
+@media screen and (max-width:767px){
+    .about__skills-logos{
+        justify-content: center;
+    }
+}

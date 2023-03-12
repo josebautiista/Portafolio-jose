@@ -7,3 +7,15 @@
     flex-direction: column;
     gap: 2rem;
 }
+
+@media  screen and (min-width: 768px)and (max-width:1023px) {
+    .about__skills{
+        width: 80%;
+    }    
+}
+
+@media screen and (max-width:767px) {
+    .about__skills{
+        width: 80%;
+    }    
+}

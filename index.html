@@ -23,6 +23,9 @@
   <link rel="stylesheet" href="Assets/css/education/education-tarjetas.css">
   <link rel="stylesheet" href="Assets/css/projecs/projects.css">
   <link rel="stylesheet" href="Assets/css/projecs/projects-container.css">
+  <link rel="stylesheet" href="Assets/css/contact/contact.css">
+  <link rel="stylesheet" href="Assets/css/contact/contact-logos.css">
+  <link rel="stylesheet" href="Assets/css/contact/contact-titulo.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -32,7 +35,9 @@
   <header>
     <section class="cabecera" id="home">
       <nav class="menu">
-        <h1 class="menu__titulo">Jose Bautista</h1>
+
+        <h1 class="menu__titulo"></h1>
+        <button class="menu-btn" id="menu-btn"></button>
         <ul class="menu__links">
           <li><a href="#home"class="menu__link active">Home</a></li>
           <li><a href="#about" class="menu__link">About</a></li>
@@ -57,7 +62,7 @@
       <div class="about__me">
         <h1>About me</h1>
         <h2>Front-end Developer / Enthusiastic</h2>
-        <p>hello, I am a front-end developer, 
+        <p>Hello, I am a front-end developer, 
           I have the necessary skills to build 
           interactive and attractive web applications, 
           I have used technologies such as HTML, CSS, 
@@ -122,13 +127,13 @@
     <section class="projects" id="projects">
 
       <div class="projects__container">
-        <a href="https://josebautiista.github.io/Dibujando-con-el-mouse/" class="projects__container-link">
+        <a href="https://josebautiista.github.io/Dibujando-con-el-mouse/" class="projects__container-link" target="_blank">
 
           <img class="projects__container-imagen" src="Assets/img/dibujo.png" alt="Encriptador">
 
           <div class="projects__container-repositorio">
 
-            <a class="repositorio" href="https://github.com/josebautiista/Dibujando-con-el-mouse">repository</a>
+            <a class="repositorio" href="https://github.com/josebautiista/Dibujando-con-el-mouse" target="_blank">repository</a>
 
           </div>
           
@@ -136,13 +141,13 @@
       </div>
 
       <div class="projects__container">
-        <a href="https://josebautiista.github.io/encriptador.github.io/" class="projects__container-link">
+        <a href="https://josebautiista.github.io/encriptador.github.io/" class="projects__container-link" target="_blank">
 
           <img class="projects__container-imagen" src="Assets/img/encriptador.png" alt="Encriptador">
 
           <div class="projects__container-repositorio">
 
-            <a class="repositorio" href="https://github.com/josebautiista/encriptador.github.io">repository</a>
+            <a class="repositorio" href="https://github.com/josebautiista/encriptador.github.io" target="_blank">repository</a>
 
           </div>
           
@@ -150,13 +155,13 @@
       </div>
 
       <div class="projects__container">
-        <a href="https://josebautiista.github.io/Granja/" class="projects__container-link">
+        <a href="https://josebautiista.github.io/Granja/" class="projects__container-link" target="_blank">
 
           <img class="projects__container-imagen" src="Assets/img/granja.png" alt="Encriptador">
 
           <div class="projects__container-repositorio">
 
-            <a class="repositorio" href="https://github.com/josebautiista/Granja">repository</a>
+            <a class="repositorio" href="https://github.com/josebautiista/Granja" target="_blank">repository</a>
 
           </div>
           
@@ -164,13 +169,13 @@
       </div>
 
       <div class="projects__container">
-        <a href="https://josebautiista.github.io/Mokepon/" class="projects__container-link">
+        <a href="https://josebautiista.github.io/Mokepon/" class="projects__container-link" target="_blank">
 
           <img class="projects__container-imagen" src="Assets/img/mokepon.png" alt="Encriptador">
 
           <div class="projects__container-repositorio">
 
-            <a class="repositorio" href="https://github.com/josebautiista/Mokepon">repository</a>
+            <a class="repositorio" href="https://github.com/josebautiista/Mokepon" target="_blank" >repository</a>
 
           </div>
           
@@ -178,13 +183,13 @@
       </div>
 
       <div class="projects__container">
-        <a href="https://josebautiista.github.io/La-Noche-Estrellada/" class="projects__container-link">
+        <a href="https://josebautiista.github.io/La-Noche-Estrellada/" class="projects__container-link" target="_blank">
 
           <img class="projects__container-imagen" src="Assets/img/vangoh.png" alt="Encriptador">
 
           <div class="projects__container-repositorio">
 
-            <a class="repositorio" href="https://github.com/josebautiista/La-Noche-Estrellada">repository</a>
+            <a class="repositorio" href="https://github.com/josebautiista/La-Noche-Estrellada" target="_blank">repository</a>
 
           </div>
           
@@ -192,13 +197,13 @@
       </div>
 
       <div class="projects__container">
-        <a href="https://josebautiista.github.io/WafflesHouse/" class="projects__container-link">
+        <a href="https://josebautiista.github.io/WafflesHouse/" class="projects__container-link" target="_blank">
 
           <img class="projects__container-imagen" src="Assets/img/waffle.png" alt="Encriptador">
 
           <div class="projects__container-repositorio">
 
-            <a class="repositorio" href="https://github.com/josebautiista/WafflesHouse">repository</a>
+            <a class="repositorio" href="https://github.com/josebautiista/WafflesHouse" target="_blank">repository</a>
 
           </div>
           
@@ -206,6 +211,19 @@
       </div>
 
     </section>
+
+
+    <section class="contact" id="contact">
+      <h1 class="contact__titulo">Contact</h1>
+      <div class="contact__logos-container">
+        <a href="mailto:josebautiista@gmail.com?Subject=I%20Want%20to%20hire%20you"><img src="Assets/img/email.png" alt="Logo email" class="contact__imagen"></a>
+        <a href="https://www.linkedin.com/in/jose-bautista-sft/" target="_blank"><img src="Assets/img/linkedin.png" alt="" class="contact__imagen"></a>
+        <a href="https://github.com/josebautiista" target="_blank"><img src="Assets/img/git.png" alt="" class="contact__imagen"></a>
+      </div>
+    
+    
+    </section>
+
   </main>
 
   <footer>

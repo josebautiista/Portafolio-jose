@@ -36,3 +36,51 @@
     font-size: 0.9rem;
 }
 
+
+@media  screen and (min-width: 768px)and (max-width:1023px) {
+    .education__tarjetas{
+        width: 40%;
+        height: 200px;
+    }
+
+    .education__tarjetas-img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .education__tarjetas-nombreIns{
+        font-size: 2rem;
+    }
+
+    .education__tarjetas-titulo{
+        font-size: 1.5rem;
+    }
+
+    .education__tarjetas-skills{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .education__tarjetas{
+        width: 40%;
+        height: 100px;
+    }
+
+    .education__tarjetas-img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .education__tarjetas-nombreIns{
+        font-size: 1rem;
+    }
+
+    .education__tarjetas-titulo{
+        font-size: 0.6rem;
+    }
+
+    .education__tarjetas-skills{
+        font-size: 0.5rem;
+    }
+}

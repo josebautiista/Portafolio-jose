@@ -15,3 +15,10 @@
     color: var(--blanco);
 }
 
+@media screen and (max-width:767px) {
+    .menu__link{
+        display: flex;
+        font-size: 2rem;
+        align-items: center;
+    }
+}

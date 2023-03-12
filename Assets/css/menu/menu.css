@@ -16,4 +16,10 @@ nav.scrolled {
     background: var(--fondo);
     opacity: 0.9;
   }
+
+.menu-btn{
+    display: none;
+}
+
+
   

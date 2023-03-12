@@ -21,6 +21,7 @@
 }
 
 .repositorio{
+    width: 40%;
     color: var(--blanco);
     text-decoration: none;
     text-transform: uppercase;
@@ -35,5 +36,31 @@
 }
 
 .projects__container-imagen:hover:not(a){
-    opacity: 0.5;
+    opacity: 0.1;
+}
+
+@media  screen and (min-width: 768px)and (max-width:1023px) {
+   
+    .projects__container{
+        width: 40%;
+        height: 200px;
+    }
+
+    .projects__container-imagen{
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    
+    .projects__container{
+        width: 40%;
+        height: 100px;
+    }
+
+    .projects__container-imagen{
+        height: 80px;
+    }
+
 }

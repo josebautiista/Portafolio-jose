@@ -25,6 +25,16 @@ window.addEventListener("scroll", function() {
   });
 });
 
+var btn = document.getElementById("menu-btn");
+var menu = document.querySelector(".menu__links");
+
+btn.addEventListener("click", function() {
+  if (menu.style.display === "none") {
+    menu.style.display = "flex";
+  } else {
+    menu.style.display = "none";
+  }
+});
 
 
 

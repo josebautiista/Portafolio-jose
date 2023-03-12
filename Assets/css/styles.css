@@ -10,3 +10,13 @@ html{
     --botones: #0F3460;
     --blanco:white;
 }
+
+@media  screen and (min-width: 768px)and (max-width:1023px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    html{font-size: 13px; }  
+}
