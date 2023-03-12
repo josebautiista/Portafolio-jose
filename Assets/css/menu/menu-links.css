@@ -6,7 +6,7 @@
 @media screen and (max-width:767px) {
     .menu-btn{
         display: block;
-        background: url(/Assets/img/menu.png);
+        background: url(../../img/menu.png);
         background-repeat: no-repeat;
         background-size: cover;
         border: none;
@@ -20,6 +20,7 @@
     }
 
     .menu__links{
+        display: none;
         position: absolute;
         top: 64px;
         right: 20px;
