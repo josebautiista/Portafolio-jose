@@ -14,6 +14,12 @@
     box-shadow: 5px 5px 0px 0px var(--letra);
 }
 
+.education__titulo{
+    color: var(--blanco);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .education__tarjetas-img{
     margin: 5vh 0;
     width: 20vh;
@@ -81,6 +87,10 @@
     }
 
     .education__tarjetas-skills{
+        font-size: 0.5rem;
+    }
+
+    .education__tarjetas-fecha{
         font-size: 0.5rem;
     }
 }

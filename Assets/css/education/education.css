@@ -1,9 +1,19 @@
 .education{
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background: var(--fondo);
+    margin-bottom: 2rem;
+}
+
+.education-container{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   background: var(--fondo);
+   gap: 3rem;
 }
 
 @media  screen and (min-width: 768px)and (max-width:1023px) {
@@ -15,5 +25,10 @@
 @media screen and (max-width:767px) {
  .education{
     flex-wrap: wrap;
+    gap: 1rem;
  }   
+
+ .education-container{
+   justify-content: center;
+ }
 }

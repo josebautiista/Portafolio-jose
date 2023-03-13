@@ -14,7 +14,7 @@ nav{
 
 nav.scrolled {
     background: var(--fondo);
-    opacity: 0.9;
+    opacity: 1;
   }
 
 .menu-btn{

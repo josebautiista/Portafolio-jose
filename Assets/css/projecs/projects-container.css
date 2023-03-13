@@ -7,17 +7,24 @@
 .projects__container-imagen{
     width: 100%;
     height: 30vh;
-    border-radius: 30px;
+    border-radius: 10px;
     transition: 0.5s opacity;
+    border: 0.5vh solid var(--blanco);
 }
 
 .projects__container-repositorio{
     position: absolute;
-    top: 50%;
-    left: 33%;
+    top: 45%;
+    left: 30%;
     color: white;
     opacity: 0;
     transition: 0.5s all;
+}
+
+.projects__titulo{
+    color: var(--blanco);
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .repositorio{

@@ -1,6 +1,25 @@
 let header = document.querySelector("nav");
 let navbar = document.querySelector("nav");
 let links = navbar.querySelectorAll(".menu__link");
+var btn = document.getElementById("menu-btn");
+var menu = document.querySelector(".menu__links");
+
+const mediaQuery = window.matchMedia('(max-width: 768px)');
+
+function handleMediaQueryChange(event) {
+  if (event.matches) {
+    const linksIterables = Array.from(links)
+    linksIterables.forEach(elemento =>{
+    
+      elemento.addEventListener("click", ()=>{
+        menu.style.display="none";
+      })
+      
+    })
+  } }
+
+mediaQuery.addEventListener('change', handleMediaQueryChange);
+
 
 window.addEventListener("scroll", function() {
   let alturaBarra = header.offsetHeight;
@@ -25,9 +44,6 @@ window.addEventListener("scroll", function() {
   });
 });
 
-var btn = document.getElementById("menu-btn");
-var menu = document.querySelector(".menu__links");
-
 btn.addEventListener("click", function() {
   if (menu.style.display === "none") {
     menu.style.display = "flex";
@@ -35,7 +51,6 @@ btn.addEventListener("click", function() {
     menu.style.display = "none";
   }
 });
-
 
 
 

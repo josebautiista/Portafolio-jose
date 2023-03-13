@@ -1,12 +1,26 @@
 .projects{
-    height: 100vh;
     background: var(--fondo);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 
+.projects-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: var(--fondo);
+    gap: 3rem;
+}
 
+@media screen and (max-width:767px) {
+    .projects-container{
+        justify-content: center;
+    }
+}

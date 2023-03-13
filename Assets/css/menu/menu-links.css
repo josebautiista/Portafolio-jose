@@ -12,7 +12,6 @@
         border: none;
         width: 40px;
         height: 40px;
-        transition: 1s all;
     }
 
     .menu{
@@ -31,6 +30,6 @@
         justify-content: center;
         gap: 5rem;
         align-items: center;
-        opacity: 0.9;
+        opacity: 1;
     }
 }
