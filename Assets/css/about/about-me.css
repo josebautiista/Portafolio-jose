@@ -43,7 +43,7 @@
 
 @media  screen and (min-width: 768px)and (max-width:1023px) {
     .about__me{
-        width: 80%;
+        width: 90%;
     }   
 
     .about__me h1{
@@ -67,8 +67,8 @@
 @media screen and (max-width:767px) {
     
     .about__me{
-        width: 80%;
-        padding: 4rem 0;
+        width: 90%;
+        padding: 1rem;
     }   
 
     .about__me h1{
