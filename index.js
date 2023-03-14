@@ -4,13 +4,17 @@ let links = navbar.querySelectorAll(".menu__link");
 var btn = document.getElementById("menu-btn");
 var menu = document.querySelector(".menu__links");
 const ancho = screen.width;
-
+
 if (ancho <= 767) {
+
+  btn.addEventListener("click", function() {
+  menu.classList.toggle('menu__activo');
+  });
   const linksIterables = Array.from(links)
     linksIterables.forEach(elemento =>{
     
       elemento.addEventListener("click", ()=>{
-        menu.style.display="none";
+        menu.classList.toggle('menu__activo');
       })
     })
 }
@@ -38,11 +42,7 @@ window.addEventListener("scroll", function() {
     }
   });
 });
-
-btn.addEventListener("click", function() {
-  menu.classList.toggle('menu__activo');
-});
-
+
 
 
 
