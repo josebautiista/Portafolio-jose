@@ -3,6 +3,11 @@
     gap: 1rem;
 }
 
+.menu__links.menu__activo{
+    display: flex;
+}
+
+
 @media screen and (max-width:767px) {
     .menu-btn{
         display: block;
