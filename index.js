@@ -10,7 +10,7 @@ if (ancho <= 767) {
     linksIterables.forEach(elemento =>{
     
       elemento.addEventListener("click", ()=>{
-        menu.style.display="none";
+        menu.classList.toggle('menu__activo');
       })
     })
 }
