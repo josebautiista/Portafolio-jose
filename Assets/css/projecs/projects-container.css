@@ -9,7 +9,6 @@
     height: 30vh;
     border-radius: 10px;
     transition: 0.5s opacity;
-    border: 0.5vh solid var(--blanco);
 }
 
 .projects__container-repositorio{
